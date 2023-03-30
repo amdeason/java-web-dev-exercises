@@ -20,7 +20,6 @@ public class Area {
                 input.nextLine();
             }
         }
-
         area = Circle.getArea(radius);
         System.out.format("Area: %f", area);
     }
