@@ -1,4 +1,4 @@
-package org.launchcode.java.countingcharacters;
+package org.launchcode.java.studios.countingCharacters;
 
 import java.io.IOException;
 import java.nio.charset.Charset;
