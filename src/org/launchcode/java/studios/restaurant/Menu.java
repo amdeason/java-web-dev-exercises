@@ -1,4 +1,4 @@
-package org.launchcode.java.studios.menu;
+package org.launchcode.java.studios.restaurant;
 
 import java.time.*;
 import java.util.ArrayList;
