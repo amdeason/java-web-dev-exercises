@@ -1,19 +1,18 @@
 package org.launchcode.java.studios.menu;
 
-import java.text.SimpleDateFormat;
-import java.util.Date;
+import java.time.LocalDate;
 
 public class MenuItem {
     private String name;
     private double price;
     private String description;
     private String category;
-    private Date dateAdded;
+    private LocalDate dateAdded;
     private boolean isNew;
 
     public MenuItem(String name) {
         this.name = name;
-        this.dateAdded = new Date();
+        this.dateAdded = LocalDate.now();
     }
 
     public String getName() {
@@ -32,7 +31,7 @@ public class MenuItem {
         return category;
     }
 
-    public Date getDateAdded() {
+    public LocalDate getDateAdded() {
         return dateAdded;
     }
 
@@ -55,7 +54,7 @@ public class MenuItem {
         this.category = category;
     }
 
-    public void setDateAdded(Date dateAdded) {
+    public void setDateAdded(LocalDate dateAdded) {
         this.dateAdded = dateAdded;
     }
 
