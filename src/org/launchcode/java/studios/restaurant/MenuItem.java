@@ -15,6 +15,14 @@ public class MenuItem {
         this.dateAdded = LocalDate.now();
     }
 
+    /*
+    INSTANCE METHODS
+     */
+
+
+    /*
+    GETTERS
+    */
     public String getName() {
         return name;
     }
@@ -39,6 +47,9 @@ public class MenuItem {
         return isNew;
     }
 
+    /*
+    SETTERS
+     */
     public void setName(String name) {
         this.name = name;
     }
